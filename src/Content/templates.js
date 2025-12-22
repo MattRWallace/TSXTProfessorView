@@ -88,7 +88,7 @@ export function createProfessorCardTemplate(name, data) {
 
 export function createNotFoundCardTemplate(name) {
     const normalizedName = (name || '').replace(/\s+/g, ' ').trim();
-    const searchUrl = `https://www.ratemyprofessors.com/search/professors/15723?q=${encodeURIComponent(normalizedName)}`;
+    const searchUrl = `https://www.ratemyprofessors.com/search/professors/938?q=${encodeURIComponent(normalizedName)}`;
 
     return `
         <div class="rmp-card-content">

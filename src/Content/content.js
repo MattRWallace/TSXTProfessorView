@@ -1,8 +1,10 @@
 import styles from './content.styles.css?inline'
 import { createProfessorCardTemplate, createNotFoundCardTemplate, createCompactCardTemplate, createCompactNotFoundCardTemplate } from "./templates.js";
 
+const INSTRUCTOR_SELECTOR = 'td[data-property="instructor"]'
+
 function findProfessors() {
-    const instructorTds = document.querySelectorAll('td[data-property="instructor"]')
+    const instructorTds = document.querySelectorAll(INSTRUCTOR_SELECTOR)
     const names = [];
 
     instructorTds.forEach((td) => {
@@ -68,7 +70,7 @@ async function processProfessorSequentially(names)  {
 
 function injectProfessorCard(name, data) {
     // Find all professor links with this name
-    const instructorTds = document.querySelectorAll('td[data-property="instructor"]')
+    const instructorTds = document.querySelectorAll(INSTRUCTOR_SELECTOR)
     
     instructorTds.forEach((td) => {
         const link = td.querySelector('a');
@@ -101,7 +103,7 @@ function injectProfessorCard(name, data) {
 }
 
 function injectNotFoundCard(name) {
-    const instructorTds = document.querySelectorAll('td[data-property="instructor"]')
+    const instructorTds = document.querySelectorAll(INSTRUCTOR_SELECTOR)
     
     instructorTds.forEach((td) => {
         const link = td.querySelector('a');

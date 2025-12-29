@@ -18,10 +18,10 @@ This extension enhances the Texas State University class catalog by showing prof
 
 ## Installation
 
-### For Users (Chrome Web Store)
-[Chrome Web Store - IN REVIEW]()
-[Edge - IN REVIEW]()
-[Firefox - IN REVIEW]()
+### For Users (Browser Web Store)
+* [Chrome Web Store - IN REVIEW]()
+* [Edge - IN REVIEW]()
+* [Firefox - IN REVIEW]()
 
 ### For Developers/Contributors
 1. **Clone the repository** or **Download the extension files** from this repository.

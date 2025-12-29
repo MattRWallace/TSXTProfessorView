@@ -28,13 +28,16 @@ TODO: When published to chrome web store, add link here.
 2. Install dependencies
 ```
 npm install
-```  
+```
 3. Build the extension
 ```
-npm run build
+turbo build check-types
 ```
-4. Open chrome and go to: `chrome://extensions/` and enable **Developer Mode**.
-5. Click **Load unpacked** and select the `dist/` folder from this project.
+4. Find the dist folder at `extensions/<browser>/dist/` and follow the guidance to load it as a local extension for your target browser:
+    * [Chrome](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world#load-unpacked)
+    * [Edge](https://learn.microsoft.com/en-us/microsoft-edge/extensions/getting-started/extension-sideloading)
+    * [Firefox](https://extensionworkshop.com/documentation/develop/temporary-installation-in-firefox/)
+
 
 ---
 

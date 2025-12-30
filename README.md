@@ -20,7 +20,7 @@ This extension enhances the Texas State University class catalog by showing prof
 
 ### For Users (Browser Web Store)
 * [Chrome Web Store - IN REVIEW]()
-* [Edge - IN REVIEW]()
+* [Edge](https://microsoftedge.microsoft.com/addons/detail/nbmnlbhghokckfddaphcdnplpblldahn)
 * [Firefox - IN REVIEW]()
 
 ### For Developers/Contributors
